@@ -10,7 +10,7 @@ The computer will then choose a random number ranging from 1-7 as well and this 
 
 🛠 Technologies Used
 
-ARM Assembly
+ARM Assembly,
 ARMLite Simulator
 
 🚀 How to Run
