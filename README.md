@@ -1,41 +1,21 @@
 # MatchsticksGames_ARM
-This project is a matchsticks (Nim-style) game written entirely in ARM assembly language using the ARMLite simulator.
+This project is a matchsticks game written entirely in ARM assembly language using the ARMLite simulator.
 It was developed as part of a university assignment focused on low-level programming, branching, loops, and register manipulation.
 
 🎮 Game Description
 
-The game begins with a fixed number of matchsticks.
-Players take turns removing 1, 2, or 3 matchsticks.
-The goal is to avoid being the player who takes the last matchstick.
-
-This program includes:
-
-Input validation (must enter 1–3)
-
-Looping game structure
-
-Register-based arithmetic
-
-Win/lose condition checking
-
-Clear branching logic for game flow
+The game begins by allowing a user to input the number of matchsticks from a range between 10-100
+The user is able to then choose how many matchsticks to remove ranging from 1-7
+The computer will then choose a random number ranging from 1-7 as well and this will continue until only 1 matchstick remains and a winner is determined
 
 🛠 Technologies Used
 
-ARM Assembly (ARMLite syntax)
-
-ARMLite Simulator / ALGUI
-
-CPU registers (R0–R12)
-
-Branching and looping instructions (CMP, B, BEQ, BNE, etc.)
+ARM Assembly
+ARMLite Simulator
 
 🚀 How to Run
 
-Open the ARMLite simulator.
-
-Load the .asm file into the editor.
-
-Assemble the program.
-
-Run and follow the on-screen prompts.
+Open the ARMLite simulator (using the browser is fine)
+Load the .asm file into the editor
+Assemble the program
+Run and follow the on-screen prompts
